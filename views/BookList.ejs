@@ -1,0 +1,30 @@
+<section>
+    <div class='spacer'>
+    </div>  
+    <h1 class='purpleBox'>This page is the result of the endpoint 
+        'getBooksstuff' found in the api/routes/books.js. That function
+        ends with res.render(Books.ejs).
+     I wonder why res.redirect does not work.</h1> 
+
+    <div class="purpleBox">
+        <ul class="Books">
+        <% for(var i = 0; i < entries.length; i++) {%>
+            <li class="Book">
+                <a href="/bookPresentation">
+                    <span id='detailsTitle'><%= entries[i].title%></span>
+                </a>
+            <br>
+            : <span id='author'><%= entries[i].author%></span>
+            <br>
+            : <span id='body'><%= entries[i].body%></span>
+            </li>
+            <br>
+        <% } %>
+        </ul>
+    </div>
+    <div class="purpleBox">
+        <a href="dashboard">Home</a>__
+        <a href="/users/logout">Logout</a>
+    </div> 
+</section>
+

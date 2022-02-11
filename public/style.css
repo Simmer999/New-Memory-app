@@ -1,0 +1,111 @@
+body {
+    top: 100px;
+    height: 200px;
+    width: 100%;
+    position: relative;
+    background-color: darkblue;
+    padding: 0;
+    margin: 0;
+}
+#container1 {
+    justify-content: space-evenly;
+    display: flex;
+    background-color: aqua;
+    margin-top: 10px;
+    height: 40px;
+    width: 400px;
+    background-color: #ffffff;
+    width: 40%;
+    position: absolute;
+    transform: translate(-50%,-70%);
+    left: 50%;
+    padding: 5px;
+    border-radius: 10px;
+}
+#container2 {
+    justify-content: space-evenly;
+    display: flex;
+    background-color: aqua;
+    margin-top: 10px;
+    height: 40px;
+    width: 130px;
+    background-color: #ffffff;
+    /* width: 40%; */
+    position: absolute;
+    transform: translate(-50%, 300%);
+    left: 50%;
+    padding: 5px;
+    border-radius: 10px;
+}
+#loginContainer {
+    background-color: aqua;
+    margin-top: 10px;
+    margin: auto;
+    width: 400px;
+    left: 50%;
+    padding: 5px;
+    border-radius: 10px;
+}
+#start {
+    top: 50%;
+    background-color: aqua;
+    border: 5px solid purple;
+    height: 40px;
+    width: 133px;
+}
+#stop {
+    top: 50%;
+    background-color: aqua;
+    border: 5px solid purple;
+    height: 40px;
+    width: 134px;
+}
+#reset {
+    top: 50%;
+    background-color: aqua;
+    border: 5px solid purple;   
+    height: 40px;
+    width: 133px;
+}
+#stopwatch {
+    font-size: 100px;
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    transform: translate(-50%, -55%);
+}
+#enter {
+    top: 50%;
+    background-color: aqua;
+    border: 5px solid purple;   
+    height: 40px;
+    width: 133px;
+}
+#login_item1 {
+    padding-left: 63px;
+}
+#login_item2 {
+    padding-left: 43px;
+}
+#loginButton {
+    margin: 0 170px;
+}
+#login_item3 {
+    margin: 0;
+    padding-left: 125px;
+}
+#login_item4 {
+    margin: 0;    
+    padding-left: 165px;
+}
+#textDiv {
+    /* height: 100px;
+    width: 90%; */
+    margin-left: -1px;;
+    background-color: #ffffff;
+    border: solid 1px black
+}
+textarea {
+    background-color: white;
+    margin: auto;
+}

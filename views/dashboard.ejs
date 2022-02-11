@@ -1,0 +1,14 @@
+<head>
+    <script type = "text/javascript" >
+        function preventBack(){window.history.forward();}
+         setTimeout("preventBack()", 0);
+         window.onunload=function(){null};
+     </script>
+</head>
+    <main id="loginContainer">  
+    <h1 class='purpleBox'>Dashboard</h1>
+    <h2> Welcome, <%= user.name %> !</h2>
+    <br>
+    <a href="/logout">Logout</a>__
+    <a href="/directory">Directory</a> 
+</main>

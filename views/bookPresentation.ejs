@@ -1,0 +1,24 @@
+<main id="loginContainer"> 
+        <ul class="Books">
+  
+        <% if (Books.length > 0) { %>
+            <% Books.forEach(book => { %>
+                <a href='/Books/<%= book._id %>'> 
+                   
+                <h4 id='title' ><%= book.title %></h4>
+                </a>
+                <p id='body'><%= book.body %></p>
+                
+                
+                <% }) %>
+            <% } else { %>
+                <p>There are no books to display.</p>
+            <% } %>        
+
+        </ul>
+    </div>
+    <div class="purpleBox">
+        <a href="/dashboard">Home</a>__
+        <a href="/users/logout">Logout</a>
+    </div> 
+</main>
